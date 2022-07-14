@@ -1,19 +1,24 @@
-# 개요
-: 웹소켓 테스트용
+# vuejs-websocket-tutorial
 
-# 목적
-: Spring boot와 Vue를 소켓으로 연결하여 풀링없이 업데이트하기 위해 가능한 지 테스트
+## Project setup
+```
+npm install
+```
 
-# 웹소켓
-: 웹소켓을 사용하면 서버와 브라우저 간 연결을 유지한 상태로 데이터를 교환할 수 있다.
-- 패킷형태로 전달
-- 전송은 커넥션 중단과 추가 HTTP 요청 없이 양방향으로 이뤄짐
-- 데이터 교환이 지속적으로 이뤄져야하는 서비스에 적합
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-참고) https://ko.javascript.info/websocket
+### Compiles and minifies for production
+```
+npm run build
+```
 
-개발/테스트 완료 후 웹소켓에 대해 더 공부하여 블로깅할 예정(아마도..?)
+### Lints and fixes files
+```
+npm run lint
+```
 
-# 진행단계(현재 커밋 기점)
-1. Vue 설치
-2. JS만으로 웹 소켓 연결
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
